@@ -1,17 +1,36 @@
-# parser-ski-com
+## parser-ski-com
 
-From https://www.fl.ru/projects/5119283/parsing-opisaniy-i-harakteristik-s-sayta.html
+Idea from https://www.fl.ru/projects/5119283/parsing-opisaniy-i-harakteristik-s-sayta.html
 
-The parser of ski-com.ru
+The parser of https://www.ski-com.ru
 
-Parses all products in "Крепеж" and store in excel file:
-  
-  title "product__title",
-  
-  info "product__min-text",
-  
-  min price "product__list-item--price",
-  
-  description "item__desc",
-  
-  url "href".
+## Basic Information
+
+* Consumes 3.6 Mbps, 0.56 MBps
+
+* First of all check ***src/config.py***
+
+* Parses all products in "Крепеж" and stores in excel file:
+
+<table>
+  <thead>
+    <tr>
+      <th>Название</th>
+      <th>Информация</th>
+      <th>Описание</th>
+      <th>Кол-во модификаций</th>
+      <th>Минимальная цена</th>
+      <th>Ссылка</th>
+    </tr>
+  </thead>
+    <tbody>
+      <tr>
+        <td><div dir="auto">product__title</div></td>
+        <td><div dir="auto">product__min-text</div></td>
+        <td><div dir="auto">item__desc</div></td>
+        <td><div dir="auto">product__list-item</div></td>
+        <td><div dir="auto">product__list-item--price</div></td>
+        <td><div dir="auto">href</div></td>
+      </tr>
+    </tbody>
+</table>
