@@ -93,4 +93,3 @@ class parser:
                 
         wb.save(config.EXCEL_FILENAME)
         print(f'\nSaved excel file with name: {config.EXCEL_FILENAME}')
-        
