@@ -8,7 +8,7 @@ The parser of https://www.ski-com.ru
 
 * Consumes 3.6 Mbps, 0.56 MBps
 
-* First of all check ***src/config.py***
+* First of all check ***config.py***
 
 * Parses all products in "Крепеж" and stores in excel file:
 
